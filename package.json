@@ -2,14 +2,12 @@
   "name": "employee-file-portal-frontend",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://HemaChandra5.github.io/FTS",
+  "homepage": "https://hemachandra5.github.io/FTS",
   "scripts": {
     "dev": "vite --port 5173",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "echo \"No linter configured\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "echo \"No linter configured\""
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -24,7 +22,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.0",
     "autoprefixer": "^10.4.19",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "sequelize-cli": "^6.6.5",
     "tailwindcss": "^3.4.4",
